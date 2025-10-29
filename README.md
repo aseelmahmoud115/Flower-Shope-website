@@ -41,10 +41,7 @@ It focuses mainly on **responsive design** and **clean UI styling**, making it s
 | 🖥️ Desktop | Two-column layout (products + cart) |
 | 📱 Mobile/Tablet | Single-column stacked layout |
 
----
 
-## 📸 Screenshots 
-![Bloom Basket Screenshot](./assets/Bloom Basket.png)
 
 
 
