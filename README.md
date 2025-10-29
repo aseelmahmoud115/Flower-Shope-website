@@ -43,5 +43,8 @@ It focuses mainly on **responsive design** and **clean UI styling**, making it s
 
 ---
 
-## 📂 Project Structure
+## 📸 Screenshots 
+![Bloom Basket Screenshot](./assets/Bloom Basket.png)
+
+
 
