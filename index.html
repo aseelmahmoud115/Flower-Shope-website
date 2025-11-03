@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Basket</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <div class="navbar">
+        <div class="brand">Bloom Basket</div>
+        <!-- Cart icon with item count -->
+        <div class="flower-bag">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <span>1</span>
+        </div>
+    </div>
+
+    <!-- Main Content (products and cart) -->
+    <div class="main-section">
+
+        <!-- product list -->
+        <div class="product-list">
+            <!-- Type 1 -->
+            <div class="flower-box">
+                <div class="flower-img-container">
+                    <img src="./Rose.jpg" class="flower-img img" alt="Rose">
+                </div>
+                <div class="flower-info">
+                    <h3>Rose Bouquet</h3>
+                    <p>$29.99</p>
+                    <button class="flower-btn">Add to cart</button>
+                </div>
+            </div>
+
+            <!-- Type 2 -->
+            <div class="flower-box">
+                <div class="flower-img-container">
+                    <img src="./Colorful Tulpis.jpeg" class="flower-img img" alt="Colorful">
+                </div>
+                <div class="flower-info">
+                    <h3>Colorful Tulpis</h3>
+                    <p>$29.99</p>
+                    <button class="flower-btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cart summary -->
+        <div class="cart-summary">
+            <div class="cart-title">Your Basket</div>
+            <div class="cart-item">
+                <div class="cart-img-warpper">
+                    <img src="./Colorful Tulpis.jpeg" alt="Tulpis">
+                </div>
+                <p>Colorful Tulpis</p>
+                <h4>$19.99</h4>
+                <i class="fa-solid fa-trash-can"></i>
+            </div>
+            <div class="cart-total">
+                <h4>Total</h4>
+                <h4>$19.99</h4>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
